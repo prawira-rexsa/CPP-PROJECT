@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 int main(){
@@ -55,6 +56,7 @@ do {
                     goto awal1;
                 }
                 cout<<"------------------------------------------------------------------------------\n";
+                system("cls");
                 
         switch(pil2){
             case 1:
@@ -198,6 +200,7 @@ do {
                     goto awal1;
                 }
                 cout<<"------------------------------------------------------------------------------\n";
+                system("cls");
                 
         switch(pil2){
             case 1:
@@ -341,6 +344,7 @@ do {
                     goto awal1;
                 }
                 cout<<"------------------------------------------------------------------------------\n";
+                system("cls");
                 
         switch(pil2){
             case 1:
@@ -469,6 +473,7 @@ do {
         cout << "Ingin memilih menu lain (y/n) : ";
         cin >> ulang;
         cout << endl;
+        system("cls");
     }
     while (ulang == 'y' || ulang == 'Y');
     cout << "maturnuwun baginda...";
